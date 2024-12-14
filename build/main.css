@@ -27,16 +27,15 @@ header .container {
   align-items: center;
   padding: 1em 0;
 }
-
-.menu {
+header .container .menu {
   display: flex;
   list-style: none;
 }
-.menu li {
+header .container .menu li {
   font-weight: bold;
   margin-left: 1.5em;
 }
-.menu li a {
+header .container .menu li a {
   color: #FFF;
   text-decoration: none;
 }
@@ -44,8 +43,7 @@ header .container {
 section {
   padding: 3.5em;
 }
-
-.products {
+section .products {
   margin-top: 2.5em;
   display: grid;
   grid-template-columns: repeat(3, 32.66%);
@@ -54,13 +52,11 @@ section {
   width: 100%;
   list-style: none;
 }
-
-.product-item img {
+section .products .product-item img {
   width: 100%;
   border-radius: 16px;
 }
-
-.product-button {
+section .products .product-button {
   display: block;
   background-color: #44bd32;
   color: #fff;
@@ -70,7 +66,7 @@ section {
   margin-top: 0.5em;
   text-decoration: none;
 }
-.product-button:hover {
+section .products .product-button:hover {
   background-color: rgb(97.5941422594, 208.9748953975, 81.0251046025);
 }
 
